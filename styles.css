@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+header {
+    background-color: #004085;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Styles */
+.intro, section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.intro {
+    background-color: #e2ecf5;
+    text-align: center;
+    font-size: 18px;
+}
+section h2 {
+    background-color: #004085;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 0;
+}
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+section ul li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+/* Highlighted Paragraphs */
+.highlighted {
+    background-color: #d1ecf1;
+    border-left: 4px solid #17a2b8;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #0c5460;
+}
+
+/* Device Item Styles */
+.device-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+}
+.device-item:hover {
+    background-color: #e9f7fa;
+}
+.device-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #0056b3;
+}
+.device-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button Styling */
+.category-card {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.category-card:hover {
+    background-color: #0056b3;
+}
